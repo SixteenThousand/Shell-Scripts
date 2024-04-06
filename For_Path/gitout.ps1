@@ -25,8 +25,11 @@ if($help) {
 		"- Double escapes (\\) are not needed.`r`n", `
 		"- Captures are denoted by dollar signs (`$). ", `
 		"Literal dollar signs are escaped with backticks (``).`r`n", `
+        "- Put a ^ at the start and $ at the end of any pattern to match", `
+        " whole filenames.`r`n", `
 		"Hopefully that's it, and you'll never make a regex mistake with ", `
 		"git out!", `
+        "`r`n", `
 		"Now git out!" `
 	)
 	echo $msg
